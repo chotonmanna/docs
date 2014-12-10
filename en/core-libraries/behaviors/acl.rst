@@ -1,17 +1,5 @@
 ACL
-###
-
-.. php:class:: AclBehavior()
-
-The Acl behavior provides a way to seamlessly integrate a model
-with your ACL system. It can create both AROs or ACOs
-transparently.
-
-To use the new behavior, you can add it to the $actsAs property of
-your model. When adding it to the actsAs array you choose to make
-the related Acl entry an ARO or an ACO. The default is to create
-ACOs::
-
+#ghjghjghjghj ghj ghj
     class User extends AppModel {
         public $actsAs = array('Acl' => array('type' => 'requester'));
     }
@@ -94,15 +82,7 @@ $model->node() to retrieve the associated Acl node.
 You can also retrieve the Acl Node for any row, by passing in a
 data array::
 
-    $this->User->id = 1;
-    $node = $this->User->node();
-
-    $user = array('User' => array(
-        'id' => 1
-    ));
-    $node = $this->User->node($user);
-
-Will both return the same Acl Node information.
+   jgjghjgh ghjormation.
 
 If you had setup AclBehavior to create both ACO and ARO nodes, you need to
 specify which node type you want::
